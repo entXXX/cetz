@@ -1,0 +1,768 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-18 03:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:36
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 single.php:114
+msgid "Previous"
+msgstr ""
+
+#: comments.php:40 single.php:115
+msgid "Next"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Name *"
+msgstr ""
+
+#: comments.php:57
+msgid "Email *"
+msgstr ""
+
+#: comments.php:58
+msgid "Website"
+msgstr ""
+
+#: comments.php:60
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:61
+msgid "Send"
+msgstr ""
+
+#: functions.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Footer Menu"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Open Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:109
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Roboto Slab, translate this to 'off'. Do not translate into your own language.
+#: functions.php:114
+msgctxt "Roboto Slab font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language.
+#: functions.php:119
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: functions.php:124
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:145
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:147
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: functions.php:155
+msgid "Footer First Widget Area"
+msgstr ""
+
+#: functions.php:157 functions.php:167 functions.php:177 functions.php:187
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:165
+msgid "Footer Second Widget Area"
+msgstr ""
+
+#: functions.php:175
+msgid "Footer Third Widget Area"
+msgstr ""
+
+#: functions.php:185
+msgid "Footer Fourth Widget Area"
+msgstr ""
+
+#: page.php:47 single-sermons.php:41
+msgid "Pages:"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:23 template-parts/post/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:60
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: shortcodes.php:181
+msgid "days"
+msgstr ""
+
+#: shortcodes.php:185
+msgid "hours"
+msgstr ""
+
+#: shortcodes.php:189
+msgid "minutes"
+msgstr ""
+
+#: shortcodes.php:193
+msgid "seconds"
+msgstr ""
+
+#: single.php:114
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:115
+msgid "Next Post"
+msgstr ""
+
+#: vc_shortcode.php:5
+msgid "OT Upcoming Envents"
+msgstr ""
+
+#: vc_shortcode.php:18 vc_shortcode.php:58 vc_shortcode.php:89
+#: vc_shortcode.php:120 vc_shortcode.php:226
+msgid "Title"
+msgstr ""
+
+#: vc_shortcode.php:27 vc_shortcode.php:235
+msgid "Sub Title"
+msgstr ""
+
+#: vc_shortcode.php:36 vc_shortcode.php:67 vc_shortcode.php:98
+msgid "Enter number post per page"
+msgstr ""
+
+#: vc_shortcode.php:45
+msgid "OT Upcoming Envents 2"
+msgstr ""
+
+#: vc_shortcode.php:76
+msgid "OT Upcoming Envents Grid"
+msgstr ""
+
+#: vc_shortcode.php:107
+msgid "OT Envents Count Down"
+msgstr ""
+
+#: vc_shortcode.php:129
+msgid ""
+"Enter time count down with date format: m/d/Y h:i:s, ex: 12/10/2018 12:00:00"
+msgstr ""
+
+#: vc_shortcode.php:138
+msgid "OT Button"
+msgstr ""
+
+#: vc_shortcode.php:151
+msgid "Add your title."
+msgstr ""
+
+#: vc_shortcode.php:155
+msgid "Button Link"
+msgstr ""
+
+#: vc_shortcode.php:157
+msgid "Add link to Button."
+msgstr ""
+
+#: vc_shortcode.php:166
+msgid "Button default color"
+msgstr ""
+
+#: vc_shortcode.php:167
+msgid "Button border light"
+msgstr ""
+
+#: vc_shortcode.php:168
+msgid "Button border dark"
+msgstr ""
+
+#: vc_shortcode.php:169
+msgid "Button with icon"
+msgstr ""
+
+#: vc_shortcode.php:171
+msgid "Select button style"
+msgstr ""
+
+#: vc_shortcode.php:175
+msgid "Button Icon"
+msgstr ""
+
+#: vc_shortcode.php:182
+msgid "Select icon from library."
+msgstr ""
+
+#: vc_shortcode.php:191
+msgid "OT Sermons List"
+msgstr ""
+
+#: vc_shortcode.php:204
+msgid "Add Number -1 for show all post or other number."
+msgstr ""
+
+#: vc_shortcode.php:213
+msgid "OT Latest Blog"
+msgstr ""
+
+#: vc_shortcode.php:244
+msgid "Number post."
+msgstr ""
+
+#: vc_shortcode.php:253
+msgid "Limit Post Excerpt Length"
+msgstr ""
+
+#: vc_shortcode.php:262
+msgid "OT Image Gallery"
+msgstr ""
+
+#: vc_shortcode.php:272
+msgid "Gallery Image"
+msgstr ""
+
+#: vc_shortcode.php:275
+msgid ""
+"Upload Image Gallery and add title, alt, caption(image size: long-pic, small-"
+"pic, wide-pic) for each image."
+msgstr ""
+
+#: vc_shortcode.php:283
+msgid "OT Testimonials"
+msgstr ""
+
+#: vc_shortcode.php:287 vc_shortcode.php:354
+msgid "Blessing Element"
+msgstr ""
+
+#: vc_shortcode.php:308
+msgid "Avatar"
+msgstr ""
+
+#: vc_shortcode.php:311
+msgid "Upload avatar"
+msgstr ""
+
+#: vc_shortcode.php:320
+msgid "Add Name"
+msgstr ""
+
+#: vc_shortcode.php:329
+msgid "Add Content"
+msgstr ""
+
+#: vc_shortcode.php:337 vc_shortcode.php:407
+msgid "Extra class name"
+msgstr ""
+
+#: vc_shortcode.php:340 vc_shortcode.php:410
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: vc_shortcode.php:350
+msgid "OT Social List"
+msgstr ""
+
+#: vc_shortcode.php:378
+msgid "Add icon class name, find here: http://fontawesome.io/icons/"
+msgstr ""
+
+#: vc_shortcode.php:387
+msgid "Add link url."
+msgstr ""
+
+#: vc_shortcode.php:398
+msgid "Same window"
+msgstr ""
+
+#: vc_shortcode.php:399
+msgid "New window"
+msgstr ""
+
+#: vc_shortcode.php:401
+msgid "Select Link Target for all social button"
+msgstr ""
+
+#: vc_shortcode.php:420
+msgid "OT Google Map"
+msgstr ""
+
+#: vc_shortcode.php:430
+msgid "Height Map"
+msgstr ""
+
+#: vc_shortcode.php:433
+msgid "Please enter number height Map, 300, 350, 380, ..etc. Default: 420."
+msgstr ""
+
+#: vc_shortcode.php:439
+msgid "Latitude"
+msgstr ""
+
+#: vc_shortcode.php:442
+msgid "Please enter <a href='http://www.latlong.net/'>Latitude</a> google map"
+msgstr ""
+
+#: vc_shortcode.php:448
+msgid "Longitude"
+msgstr ""
+
+#: vc_shortcode.php:451
+msgid "Please enter <a href='http://www.latlong.net/'>Longitude</a> google map"
+msgstr ""
+
+#: vc_shortcode.php:458
+msgid "Zoom Map"
+msgstr ""
+
+#: vc_shortcode.php:461
+msgid "Please enter Zoom Map, Default: 15"
+msgstr ""
+
+#: vc_shortcode.php:470
+msgid "Icon Map marker, 85 x 85"
+msgstr ""
+
+#: vc_shortcode.php:474
+msgid "Select map style"
+msgstr ""
+
+#: vc_shortcode.php:477
+msgid "Map Dark"
+msgstr ""
+
+#: vc_shortcode.php:478
+msgid "Map Light"
+msgstr ""
+
+#: vc_shortcode.php:479
+msgid "Customize Gmap Style"
+msgstr ""
+
+#: vc_shortcode.php:481
+msgid ""
+"Select amp style dark or light or custom map (copy script code here: https:"
+"//snazzymaps.com/ and paste into your map JavaScript Code.)."
+msgstr ""
+
+#: vc_shortcode.php:487
+msgid "JavaScript Code"
+msgstr ""
+
+#: framework/customizer.php:155
+msgid "General"
+msgstr ""
+
+#: framework/customizer.php:159
+msgid "Header"
+msgstr ""
+
+#: framework/customizer.php:166
+msgid "Logo"
+msgstr ""
+
+#: framework/customizer.php:174
+msgid "Socials"
+msgstr ""
+
+#: framework/customizer.php:182 framework/customizer.php:207
+msgid "Styling"
+msgstr ""
+
+#. Name of the template
+#: framework/customizer.php:191
+msgid "Blog"
+msgstr ""
+
+#: framework/customizer.php:199
+msgid "Footer"
+msgstr ""
+
+#: framework/customizer.php:214
+msgid "Preload"
+msgstr ""
+
+#: framework/customizer.php:221
+msgid "Miscellaneous"
+msgstr ""
+
+#: framework/customizer.php:233
+msgid "Preloader"
+msgstr ""
+
+#: framework/customizer.php:242
+msgid "Logo Static"
+msgstr ""
+
+#: framework/customizer.php:243
+msgid "Upload your logo static here"
+msgstr ""
+
+#: framework/customizer.php:250
+msgid "Logo Scroll"
+msgstr ""
+
+#: framework/customizer.php:251
+msgid ""
+"Upload your logo scroll here, when you scroll down the web page, the logo "
+"will be used."
+msgstr ""
+
+#: framework/customizer.php:260
+msgid "Socials Network"
+msgstr ""
+
+#: framework/customizer.php:265
+msgid "social"
+msgstr ""
+
+#: framework/customizer.php:272
+msgid "Social network name"
+msgstr ""
+
+#: framework/customizer.php:273
+msgid "This will be the social network name"
+msgstr ""
+
+#: framework/customizer.php:278
+msgid "Icon class name"
+msgstr ""
+
+#: framework/customizer.php:279
+msgid "This will be the social icon: http://fontawesome.io/icons/"
+msgstr ""
+
+#: framework/customizer.php:284
+msgid "Link url"
+msgstr ""
+
+#: framework/customizer.php:285
+msgid "This will be the social link"
+msgstr ""
+
+#: framework/customizer.php:294
+msgid "Header Static Text Color"
+msgstr ""
+
+#: framework/customizer.php:295 framework/customizer.php:312
+msgid "Set your header text color."
+msgstr ""
+
+#: framework/customizer.php:311
+msgid "Header Scroll Text Color"
+msgstr ""
+
+#: framework/customizer.php:328
+msgid "Header Static Background Color"
+msgstr ""
+
+#: framework/customizer.php:329 framework/customizer.php:346
+msgid "Set your header background color."
+msgstr ""
+
+#: framework/customizer.php:345
+msgid "Header Scroll Background Color"
+msgstr ""
+
+#: framework/customizer.php:362
+msgid "Header Scroll Border Bottom Color"
+msgstr ""
+
+#: framework/customizer.php:363
+msgid "Set your header border bottom color."
+msgstr ""
+
+#: framework/customizer.php:380
+msgid "Select Blog Layout"
+msgstr ""
+
+#: framework/customizer.php:393
+msgid "Select Blog Style"
+msgstr ""
+
+#: framework/customizer.php:399
+msgid "Blog Grid"
+msgstr ""
+
+#: framework/customizer.php:400
+msgid "Blog List"
+msgstr ""
+
+#: framework/customizer.php:407
+msgid "Text Left Footer Bottom"
+msgstr ""
+
+#: framework/customizer.php:416
+msgid "Primary Color"
+msgstr ""
+
+#: framework/customizer.php:424
+msgid "Body Font"
+msgstr ""
+
+#: framework/customizer.php:448
+msgid "Add Your Google Map API Key"
+msgstr ""
+
+#: framework/meta-boxes.php:19
+msgid "Format Details"
+msgstr ""
+
+#: framework/meta-boxes.php:26
+msgid "Image"
+msgstr ""
+
+#: framework/meta-boxes.php:33
+msgid "Gallery"
+msgstr ""
+
+#: framework/meta-boxes.php:39
+msgid "Audio"
+msgstr ""
+
+#: framework/meta-boxes.php:50
+msgid "Video"
+msgstr ""
+
+#: framework/meta-boxes.php:65
+msgid "Sermons Post Settings"
+msgstr ""
+
+#: framework/meta-boxes.php:72
+msgid "Audio Link"
+msgstr ""
+
+#: framework/meta-boxes.php:82
+msgid "Video Link"
+msgstr ""
+
+#: framework/meta-boxes.php:92
+msgid "Upload file"
+msgstr ""
+
+#: framework/meta-boxes.php:102
+msgid "Page Settings"
+msgstr ""
+
+#: framework/meta-boxes.php:109
+msgid "Background Top Image"
+msgstr ""
+
+#: framework/template-functions.php:37
+msgid "Setup Full width For Row"
+msgstr ""
+
+#: framework/template-functions.php:40
+msgid "No"
+msgstr ""
+
+#: framework/template-functions.php:41
+msgid "Yes"
+msgstr ""
+
+#: framework/template-functions.php:43
+msgid "Select Full width for row : yes or not, Default: No fullwidth"
+msgstr ""
+
+#: framework/template-functions.php:50
+msgid "Animate Column"
+msgstr ""
+
+#: framework/template-functions.php:53
+msgid "None"
+msgstr ""
+
+#: framework/template-functions.php:54
+msgid "Fade In Up"
+msgstr ""
+
+#: framework/template-functions.php:55
+msgid "Fade In Down"
+msgstr ""
+
+#: framework/template-functions.php:56
+msgid "Fade In"
+msgstr ""
+
+#: framework/template-functions.php:57
+msgid "Fade In Left"
+msgstr ""
+
+#: framework/template-functions.php:58
+msgid "Fade In Right"
+msgstr ""
+
+#: framework/template-functions.php:60
+msgid "Select Animate , Default: None"
+msgstr ""
+
+#: framework/template-functions.php:65
+msgid "Animate delay number."
+msgstr ""
+
+#: framework/template-functions.php:68 framework/template-functions.php:77
+msgid "Example : 0.2, 0.6, 1, etc"
+msgstr ""
+
+#: framework/template-functions.php:74
+msgid "Animate duration number."
+msgstr ""
+
+#: framework/template-tags.php:20
+#, php-format
+msgctxt "post author"
+msgid "By: %s"
+msgstr ""
+
+#: framework/template-tags.php:25
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: framework/template-tags.php:34
+msgid "0 comments"
+msgstr ""
+
+#: framework/template-tags.php:34
+msgid "1 comment"
+msgstr ""
+
+#: framework/template-tags.php:34
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: framework/template-tags.php:34
+msgid "Comments are off for this post"
+msgstr ""
+
+#: page-templates/template-blog.php:60
+msgid "Nothing Found Here!"
+msgstr ""
+
+#. Name of the template
+msgid "Canvas"
+msgstr ""
+
+#: page-templates/template-canvas.php:15
+#: page-templates/template-fullwidth.php:36
+msgid "Page Canvas For Page Builder"
+msgstr ""
+
+#. Name of the template
+msgid "FullWidth"
+msgstr ""
+
+#: framework/widget/recent-post.php:10
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: framework/widget/recent-post.php:11
+msgid "Blessing Recent Posts"
+msgstr ""
+
+#: framework/widget/recent-post.php:75
+msgid "Title:"
+msgstr ""
+
+#: framework/widget/recent-post.php:78
+msgid "Number of posts to show:"
+msgstr ""
+
+#: framework/widget/recent-post.php:82
+msgid "Display post date?"
+msgstr ""
+
+#: template-parts/post/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the theme
+msgid "Blessing"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Blessing is responsive website template for church build with Visual "
+"Composer Page Buider. Blessing is responsive with almost all devices screen "
+"size supported. This theme equipped with awesome features like Revolution "
+"Slider, Visual Composer, touch &amp; swipe carousel, countdown timer and "
+"much more features."
+msgstr ""
+
+#. URI of the theme
+msgid "http://wpdemo.oceanthemes.net/blessing"
+msgstr ""
+
+#. Author of the theme
+msgid "OceanThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://oceanthemes.net/"
+msgstr ""

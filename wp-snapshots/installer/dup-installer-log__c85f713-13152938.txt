@@ -1,0 +1,512 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:05:25
+* VERSION: 1.3.18
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.13                                |7.2.19-0ubuntu0.18.04.2
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2019-08-13 15:29:38
+WP VERSION__________: 5.2.2
+DUP VERSION_________: 1.3.18
+DB__________________: 5.7.24
+DB TABLES___________: 13
+DB ROWS_____________: 496
+DB FILE SIZE________: 1.78MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.19-0ubuntu0.18.04.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.29 (Ubuntu)
+DOC ROOT____________: "/var/www/html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://185.168.131.69/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190813_cetprague_c85f7139a7b675121117_20190813152938_archive.zip"
+SIZE________________: 70.12MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/var/www/html/20190813_cetprague_c85f7139a7b675121117_20190813152938_archive.zip' -d '/var/www/html' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/html/dup-installer/ctrls/ctrl.s1.php|LINE:404]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/html/dup-installer/ctrls/ctrl.s1.php|LINE:404]
+
+STEP-1 COMPLETE @ 07:05:27 - RUNTIME: 1.9537 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:/var/www/html/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:11:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.27 -- Build Server: 5.7.24
+FILE SIZE:	dup-database__c85f713-13152938.sql (629.65KB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/dup-installer/dup-installer-data__c85f713-13152938.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/var/www/html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (152)
+wp_postmeta: (192)
+wp_posts: (45)
+wp_term_relationships: (20)
+wp_term_taxonomy: (6)
+wp_termmeta: (0)
+wp_terms: (6)
+wp_usermeta: (41)
+wp_users: (2)
+Removed '38' cache/transient rows
+
+INSERT DATA RUNTIME: 1.3101 sec.
+STEP-2 COMPLETE @ 07:11:31 - RUNTIME: 1.3138 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:11:38
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "CetPrague"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/site/wwwroot/"
+path_new______________: "/var/www/html/"
+siteurl_______________: "http://185.168.131.69"
+url_old_______________: "http://cetcz.azurewebsites.net"
+url_new_______________: "http://185.168.131.69"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "cetz"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   152][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   192][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/site/wwwroot/" =============================> "/var/www/html/"
+	SEARCH  2:"\/home\/site\/wwwroot\/" =========================> "\/var\/www\/html\/"
+	SEARCH  3:"%2Fhome%2Fsite%2Fwwwroot%2F" =====================> "%2Fvar%2Fwww%2Fhtml%2F"
+	SEARCH  4:"\home\site\wwwroot" ==============================> "/var/www/html"
+	SEARCH  5:"\\home\\site\\wwwroot" ===========================> "\/var\/www\/html"
+	SEARCH  6:"%5Chome%5Csite%5Cwwwroot" ========================> "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//cetcz.azurewebsites.net" =======================> "//185.168.131.69"
+	SEARCH  8:"\/\/cetcz.azurewebsites.net" =====================> "\/\/185.168.131.69"
+	SEARCH  9:"%2F%2Fcetcz.azurewebsites.net" ===================> "%2F%2F185.168.131.69"
+	SEARCH 10:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 11:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 12:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+	SEARCH 13:"//'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 14:"\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 15:"%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 16:"//www.'. $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'. $_SERVER['HTTP_HOST']);
+define('WP_CONTENT_URL', '/wp-content" => "//185.168.131.69"
+	SEARCH 17:"\/\/www.'. $_SERVER['HTTP_HOST']);\ndefine('WP_SITEURL', 'http:\/\/'. $_SERVER['HTTP_HOST']);\ndefine('WP_CONTENT_URL', '\/wp-content" => "\/\/185.168.131.69"
+	SEARCH 18:"%2F%2Fwww.%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_SITEURL%27%2C+%27http%3A%2F%2F%27.+%24_SERVER%5B%27HTTP_HOST%27%5D%29%3B%0Adefine%28%27WP_CONTENT_URL%27%2C+%27%2Fwp-content" => "%2F%2F185.168.131.69"
+	SEARCH 19:"https://185.168.131.69" ==========================> "http://185.168.131.69"
+	SEARCH 20:"https:\/\/185.168.131.69" ========================> "http:\/\/185.168.131.69"
+	SEARCH 21:"https%3A%2F%2F185.168.131.69" ====================> "http%3A%2F%2F185.168.131.69"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:465 	|	 Cells:2730 
+UPDATED:	Tables:3 	|	 Rows:49 	|	 Cells:52 
+ERRORS:		0 
+RUNTIME:	0.063200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://185.168.131.69"
+	UPDATE DOMAIN_CURRENT_SITE "185.168.131.69"
+	UPDATE DB_NAME ""cetz""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(/var/www/html/dup-installer/dup-orig-htaccess__c85f713-13152938.txt): failed to open stream: No such file or directory [CODE:2|FILE:/var/www/html/dup-installer/classes/class.s3.func.php|LINE:1141]
+
+STEP-3 COMPLETE @ 07:11:38 - RUNTIME: 0.1234 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup.  These values should only be investigated if your running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
