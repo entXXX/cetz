@@ -1,0 +1,27 @@
+[Sep 1 15:01:57] 
+[Sep 1 15:01:57] ==DUPLICATOR INSTALLER BOOTSTRAP v1.3.18==
+[Sep 1 15:01:57] ----------------------------------------------------
+[Sep 1 15:01:57] Installer bootstrap start
+[Sep 1 15:01:57] Using archive /var/www/html/20190901_cetprague_4664dae2e987671b7637_20190901091153_archive.zip
+[Sep 1 15:01:57] Ready to extract the installer
+[Sep 1 15:01:57] Checking permission of destination folder
+[Sep 1 15:01:57] WARNING: ZipArchive is not enabled.
+[Sep 1 15:01:57] Attempting to use Shell Exec
+[Sep 1 15:01:57] Executing unzip -q /var/www/html/20190901_cetprague_4664dae2e987671b7637_20190901091153_archive.zip dup-installer/* 2>&1
+[Sep 1 15:01:57] Shell exec unzip succeeded
+[Sep 1 15:01:57] Successfully extracted with Shell Exec
+[Sep 1 15:01:57] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Sep 1 15:01:57] ERROR:  SAPI: Unrecognized
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/assets to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/classes to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/ctrls to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/favicon to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/lib to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/views to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/dup-archive__4664dae-01091153.txt to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/dup-database__4664dae-01091153.sql to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/dup-scan__4664dae-01091153.json to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/index.php to 0<br/>
+[Sep 1 15:01:57] Set permissions of /var/www/html/dup-installer/main.installer.php to 0<br/>
+[Sep 1 15:01:57] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://89.221.218.163/dup-installer/main.installer.php

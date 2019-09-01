@@ -35,7 +35,7 @@ define('DB_NAME', "cetz");
 define('DB_USER', "root");
 
 /** MySQL database password */
-define('DB_PASSWORD',"desire 0F money");
+define('DB_PASSWORD',"cetmonotone17");
 
 /** MySQL hostname */
 define('DB_HOST', "localhost");
@@ -94,8 +94,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 	$_SERVER['HTTPS'] = 'on';
 
 //Relative URLs for swapping across app service deployment slots 
-define( 'WP_HOME', 'http://185.168.131.69' );
-define( 'DOMAIN_CURRENT_SITE', '185.168.131.69' );
+define( 'WP_HOME', 'http://89.221.218.163' );
+define( 'DOMAIN_CURRENT_SITE', '89.221.218.163' );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
